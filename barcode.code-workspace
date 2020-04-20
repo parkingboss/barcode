@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/node_modules": true,
+			"**/.git": true,
+			"**/.DS_Store": true,
+			"**/.keep": true,
+			"**/.vscode": true,
+			"**/dist": true
+		},
+		"eslint.enable": false,
+		"javascript.implicitProjectConfig.checkJs": true
+	}
+}
