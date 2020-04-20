@@ -7,9 +7,7 @@ export default [
   {
     input: 'src/index.js',
     output: {
-      sourcemap: true,
-      file: pkg.module,
-      format: 'es'
+      file: pkg.main, 'format': 'umd', name: pkg.main
     },
     plugins: [
       resolve(),

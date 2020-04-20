@@ -10,7 +10,7 @@
     "dev": "rollup -c -w",
     "postversion": "git push && git push --tags && npm publish --access=public"
   },
-  "module": "dist/barcode.js",
+  "main": "dist/barcode.js",
   "files": [
     "dist/*"
   ],
