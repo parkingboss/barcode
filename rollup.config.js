@@ -7,7 +7,7 @@ export default [
   {
     input: 'src/index.js',
     output: {
-      file: pkg.main, 'format': 'umd', name: pkg.main
+      file: pkg.main, 'format': 'umd', name: 'barcode'
     },
     plugins: [
       resolve(),
